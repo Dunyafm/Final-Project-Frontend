@@ -158,3 +158,93 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.pictures-6 {
+  border-radius: 5px;
+  position: relative;
+}
+
+.pictures-6 a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.pictures-6 a:hover {
+  color: #333;
+}
+
+.pictures-6 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.pictures-6-text {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+.pictures-6-text h4 {
+  color: #01a701;
+}
+
+.pictures-6-text h3 {
+  color: #304dc0;
+}
+
+.pictures-6-text p {
+  color: #7c7f8a;
+}
+
+.pictures-6-text button {
+  outline: none;
+  border: none;
+  background-color: #7c7f8a;
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.pictures-6-picture {
+  border-radius: 5px;
+}
+
+.pictures-6-picture a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.pictures-6-picture a:hover {
+  color: #333;
+}
+
+.pictures-6-picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.pictures-6-information p {
+  color: #6e6e6e;
+}
+
+.pictures-6-information .comment {
+  color: black;
+}
+
+.pictures-6-information .italic {
+  font-style: italic;
+}
+
+.pictures-6-information .author {
+  color: black;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #c5c5c5;
+  font-size: 80%;
+}
