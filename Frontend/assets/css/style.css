@@ -153,8 +153,8 @@ body {
 
 /* Ignore this CSS */
 #carouselExampleIndicators{
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -175,15 +175,15 @@ body {
 }
 
 .pictures-6 img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
 }
 
 .pictures-6-text {
   position: absolute;
-  top: 12%;
-  left: 10%;
+  top: 15%;
+  left: 20%;
 }
 
 .pictures-6-text h4 {
@@ -222,8 +222,8 @@ body {
 }
 
 .pictures-6-picture img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
 }
 
@@ -246,5 +246,5 @@ body {
 .line-through {
   text-decoration: line-through;
   color: #c5c5c5;
-  font-size: 80%;
+  font-size: 100%;
 }
