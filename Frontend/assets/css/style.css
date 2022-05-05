@@ -248,3 +248,121 @@ body {
   color: #c5c5c5;
   font-size: 100%;
 }
+
+
+
+/* Card Carousel SLIDER */
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 450px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 40px;
+  
+}
+
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 30vh;
+  background-color: #FAFAFA;
+}
+
+.cards {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+@mixin all-cards {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  width: 50px;
+  height: 50px;
+  margin: 2%;
+  
+  font-size: 2em;
+  background-color: white;
+  box-shadow: 5px 0px 5px 1px #E5DEE8, 
+-5px 5px 5px 0px #DDDDDD;
+  color: #6226a6;
+}
+
+.card-one {
+  @include all-cards;
+  animation: card-one 3s infinite;
+  z-index: 4;
+}
+
+.card-two {
+  @include all-cards;
+  animation: card-two 3s infinite;
+  z-index: 3;
+}
+
+.card-three {
+  @include all-cards;
+  animation: card-three 3s infinite;
+  z-index: 2;
+}
+
+.card-four {
+  @include all-cards;
+  animation: card-four 3s infinite;
+  z-index: 1;
+}
+
+@keyframes card-one {
+  0% {
+   color: white;
+  }
+  1% {
+   color: white;
+  }
+}
+
+@keyframes card-two {
+  0% {
+   transform: translateX(-300px);
+   color: white;
+  }
+  1% {
+   color: white;
+  }
+  
+}
+
+@keyframes card-three {
+  0% {
+   transform: translateX(-603px);
+   color: white;
+  }
+  1% {
+   color: white;
+  }
+
+}
+
+
+@keyframes card-four {
+  0% {
+   transform: translateX(-905px);
+   color: white;
+  }
+  1% {
+   color: white;
+  }
+}
+
+
+
+
+
+

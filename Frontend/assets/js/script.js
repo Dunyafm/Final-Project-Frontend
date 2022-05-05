@@ -23,11 +23,26 @@
 //     }; $(document).ready(function () { DOC.init(); });
 // })(jQuery);
 
-(function($){
-  
-    $(document).ready(function(){
-      // Pause hero carousel
-      $('.hero-carousel').carousel('pause');
-    });
-    
-  })(jQuery);
+(function ($) {
+
+  $(document).ready(function () {
+    // Pause hero carousel
+    $('.hero-carousel').carousel('pause');
+  });
+
+})(jQuery);
+
+
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      autoPlay: 2000, //Set AutoPlay to 2 seconds
+ 
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+ 
+});
