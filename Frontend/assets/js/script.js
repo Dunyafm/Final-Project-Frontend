@@ -5,22 +5,26 @@
     $('.hero-carousel').carousel('pause');
   });
 
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+
 })(jQuery);
 
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-  $("#owl-demo").owlCarousel({
+//   $("#owl-demo").owlCarousel({
 
-    autoPlay: 2000, //Set AutoPlay to 2 seconds
+//     autoPlay: 2000, //Set AutoPlay to 2 seconds
 
-    items: 4,
-    itemsDesktop: [1199, 3],
-    itemsDesktopSmall: [979, 3]
+//     items: 4,
+//     itemsDesktop: [1199, 3],
+//     itemsDesktopSmall: [979, 3]
 
-  });
+//   });
 
-});
+// });
 
 // TESTIMONIAL
 
@@ -97,3 +101,5 @@ $(function() {
       }
   });
 });
+
+
