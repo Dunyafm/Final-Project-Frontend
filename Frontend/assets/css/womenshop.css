@@ -123,32 +123,41 @@ header .mobile-navbar.active {
 
 /* HEADER END  */
 
+/* PRODUCTS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
 *{
+   
     padding: 0;
     margin: 0;
 }
 
 :root{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Raleway";
     --heading-color: hsl(0, 0%, 7%);
-    --date-text-color: hsl(0, 0%, 51%);
     --previous-price-text-color: hsl(0, 98%, 44%);
     --current-price-text-color: hsla(0, 0%, 0%, 0.822);
     --liked-heart-icon-color: hsl(0, 98%, 44%);
     --heart-icon-color: whitesmoke;
     --pricing-font-weight: 800;
     --title-font-weight: 800;
-    --date-font-weight: 550;
+ 
 
     /* Cards colors */
     --card-main-color : whitesmoke;
-    --card-1-secondary-color:  rgb(178,180,179);
-    --card-2-secondary-color:  rgb(178,180,179);
-    --card-3-secondary-color:  rgb(178,180,179);
-    --card-4-secondary-color:  rgb(178,180,179);
+    --card-1-secondary-color:   rgb(178,180,179);
+    --card-2-secondary-color:   rgb(178,180,179);
+    --card-3-secondary-color:   rgb(178,180,179);
+    --card-4-secondary-color:   rgb(178,180,179);
+    --card-5-secondary-color:   rgb(178,180,179);
+    --card-6-secondary-color:   rgb(178,180,179);
+    --card-7-secondary-color:   rgb(178,180,179);
+    --card-8-secondary-color:   rgb(178,180,179);
+    --card-9-secondary-color:   rgb(178,180,179);
+    --card-10-secondary-color:  rgb(178,180,179);
+    --card-11-secondary-color:  rgb(178,180,179);
+    --card-12-secondary-color:  rgb(178,180,179);
 }
 
 html{
@@ -157,7 +166,8 @@ html{
 }
 
 body{
-    /* background-color: lightcyan; */  
+     background-color: lightcyan; 
+ 
 }
 
 .container input{
@@ -165,29 +175,30 @@ body{
 }
 
 .container{
-    max-width: 100em;
-    /* background-color: lightgreen; */
+    max-width: 100rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: flex-start;
     margin: auto;
-    min-height: 30em;
+    min-height: 40em;
+    min-width: 89%;
     padding: 3em 1em 1em 1em;
     box-sizing: border-box;
 }
 
 /* Card Styling */
 .card-div{
+ 
     width: 20em;
     min-height: 20em;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-items: center;
     align-items: center;
-    background-color: var(--card-main-color);
-    margin: 0.6em;
+    /* background-color: var(--card-main-color); */
+    margin: 3em;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -204,19 +215,19 @@ body{
     align-items: center;
     padding-top: 1rem;
     z-index: 1;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 12px 12px;
 }
 
 .img-div img{
     transform-origin: bottom;
-    transform: translateY(7.5%);
+    transform: translateY(8.5%);
     transition: transform 0.3s ease-in-out
 }
 
 /* === Styling the like Icon ==== */
 .like-icon-div{
     padding: 1em 1em 0 1em;
-    width: 100%;
+    width: 120%;
     box-sizing: border-box;
     text-align: right;
     font-size: 1.5em;
@@ -227,7 +238,7 @@ body{
 }
 
 .like-icon-div-child{
-    /* background-color: yellow; */
+
     width: 1em;
     height: 1em;
     position: relative;
@@ -246,7 +257,7 @@ body{
     left: 0;
     opacity: 0;
     transform: scale(0);
-    transition: transform 0.25s ease-in-out, opacity 0.2s ease-in-out;
+    transition: transform 0.35s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 
@@ -261,9 +272,6 @@ body{
     /* background-color: whitesmoke; */
 }
 
-.card-1 .like-icon-div{
-    background-color: gainsboro var(--card-1-secondary-color);
-}
 
 
 /* Sekiro image and heart-background */
@@ -272,14 +280,48 @@ body{
 }
 
 .sekiro-img-div img{
-    width: 45%;
-    transform: translateY(7.5%);
+    width: 55%;
+    transform: translateY(8.5%);
 }
 
+/* CARDS ICON  */
+
+.card-1 .like-icon-div{
+    background-color: var(--card-1-secondary-color);
+}
 .card-2 .like-icon-div{
     background-color: var(--card-2-secondary-color);
 }
-
+.card-3 .like-icon-div{
+    background-color: var(--card-3-secondary-color);
+}
+.card-4 .like-icon-div{
+    background-color: var(--card-4-secondary-color);
+}
+.card-5 .like-icon-div{
+    background-color: var(--card-5-secondary-color);
+}
+.card-6 .like-icon-div{
+    background-color: var(--card-6-secondary-color);
+}
+.card-7 .like-icon-div{
+    background-color: var(--card-7-secondary-color);
+}
+.card-8 .like-icon-div{
+    background-color: var(--card-8-secondary-color);
+}
+.card-9 .like-icon-div{
+    background-color: var(--card-9-secondary-color);
+}
+.card-10 .like-icon-div{
+    background-color: var(--card-10-secondary-color);
+}
+.card-11 .like-icon-div{
+    background-color: var(--card-11-secondary-color);
+}
+.card-12 .like-icon-div{
+    background-color: var(--card-12-secondary-color);
+}
 
 /* Dazai image and heart-background */
 .dazai-img-div{
@@ -291,10 +333,7 @@ body{
     transform: translateY(7.5%);
 }
 
-.card-3 .like-icon-div{
-    background-color: var(--card-3-secondary-color);
-    
-}
+
 
 /* U4 image and heart-background*/
 .u4-img-div{
@@ -306,49 +345,45 @@ body{
     transform: translateY(7.5%);
 }
 
-.card-4 .like-icon-div{
-    background-color: var(--card-4-secondary-color);
-}
 
-/* ======== text Container Styling general ======== */
+
 
 .text-container{
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* background-color: yellow; */
-    padding: 0 1.5em;
-    padding-top: 7em;
-    padding-bottom: 1em;
+    padding: 0 2em;
+    padding-top: 9em;
+    padding-bottom: 2em;
     box-sizing: border-box;
 }
 
 .text-container .item-name,
 .text-container .date{
-    margin: 0.25em 0;
+    margin: 0.99em 0;
     text-align: center;
+   
 }
 
 .text-container .item-name{
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: var(--title-font-weight);
     color: var(--heading-color);
 }
 
 .text-container .date{
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-weight: var(--date-font-weight);
     color: var(--date-text-color);
 }
 
-/* === Pricing and cart div  ===== */
 .pricing-and-cart{
-    /* background-color: wheat; */
+
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0.25em 0 1em 0;
+    margin: 0.20em 0 1em 0;
 }
 
 .pricing{
@@ -362,7 +397,6 @@ body{
     font-weight: var(--pricing-font-weight);
     color: var(--previous-price-text-color);
     text-decoration: line-through;
-    /* background-color: whitesmoke; */
     text-align: left;
 }
 
@@ -370,7 +404,6 @@ body{
     color: var(--current-price-text-color);
     font-size: 1.3rem;
     font-weight: var(--pricing-font-weight);
-    /* background-color: yellow; */
     margin: 0;
 }
 
@@ -379,15 +412,15 @@ body{
 }
 
 .fa-shopping-cart{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     top: 0;
-    transform: translateY(50%);
+    transform: translateY(60%);
 }
 
 
 /* ====== Hover effects ======= */
 .card-div:hover .img-div img{
-    transform: translateY(7.5%) scale(1.2);
+    transform: translateY(5.5%) scale(1.2);
 }
 
 .card-div:hover{
@@ -400,7 +433,7 @@ body{
 }
 
 .like-icon-div-child:hover .heart-empty{
-    transition-delay: 0.25s;
+    transition-delay: 0.35s;
     opacity: 0;
 }
 
@@ -415,7 +448,7 @@ body{
 #card-2-like:checked ~ .heart-fill,
 #card-3-like:checked ~ .heart-fill,
 #card-4-like:checked ~ .heart-fill{
-    animation: like-animation 0.25s ease-in-out forwards;
+    animation: like-animation 0.35s ease-in-out forwards;
 }
 
 #card-1-like:not(:checked) ~ .heart-fill,
@@ -425,7 +458,9 @@ body{
     animation: unlike-animation 0.25s ease-in-out ;
 }
 
+/* 
 
+/////////////////////// */
 @keyframes like-animation{
     0%{
         opacity: 1;
@@ -463,7 +498,7 @@ body{
     }
 }
 
-/* PRODUCTS */
+/* PRODUCTS HOVER SHOES */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -499,7 +534,7 @@ input{
 .container{
     margin: 0 auto;
     /* background-color: green; */
-    max-width: 60rem; 
+    max-width: 200rem; 
     min-height: 30rem;
     padding: 3rem;
     display: flex;
