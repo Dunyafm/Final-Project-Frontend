@@ -145,10 +145,10 @@ header .mobile-navbar.active {
 
     /* Cards colors */
     --card-main-color : whitesmoke;
-    --card-1-secondary-color: rgb(192, 82, 82);
-    --card-2-secondary-color: rgb(67,53,27);
-    --card-3-secondary-color: rgb(178,180,179);
-    --card-4-secondary-color: rgb(96,109,117);
+    --card-1-secondary-color:  rgb(178,180,179);
+    --card-2-secondary-color:  rgb(178,180,179);
+    --card-3-secondary-color:  rgb(178,180,179);
+    --card-4-secondary-color:  rgb(178,180,179);
 }
 
 html{
@@ -256,13 +256,13 @@ body{
 }
 
 .gow-img-div img{
-    width: 65%;
+    width: 80%;
     transform: translateY(7.5%);
     /* background-color: whitesmoke; */
 }
 
 .card-1 .like-icon-div{
-    background-color: var(--card-1-secondary-color);
+    background-color: gainsboro var(--card-1-secondary-color);
 }
 
 
