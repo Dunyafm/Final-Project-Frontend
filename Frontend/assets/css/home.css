@@ -2,7 +2,7 @@ body {
   font-family: urbanist, sans-serif;
   font-size: .9375rem;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #7e7e7e;
   text-align: left;
   /* font-family: Montserrat, sans-serif;
@@ -786,26 +786,17 @@ i.fa.fa-tag::before {
 /* Card Carousel SLIDER */
 
 #owl-demo .item {
-  margin: 5px;
+  margin: 1px;
 }
 
 #owl-demo .item img {
   display: block;
-  width: 900px;
+  width: 300px;
   height: 400px;
   margin-left: 50px;
   margin-right: 80px;
 
 }
-
-
-/* 
-body {
-  margin: 0 auto;
-  padding: 0;
-  height: 30vh;
-  background-color: #FAFAFA;
-} */
 
 .cards {
   display: flex;
@@ -832,25 +823,25 @@ body {
 
 .card-one {
   @include all-cards;
-  animation: card-one 3s infinite;
+  animation: card-one 2s infinite;
   z-index: 4;
 }
 
 .card-two {
   @include all-cards;
-  animation: card-two 3s infinite;
+  animation: card-two 2s infinite;
   z-index: 3;
 }
 
 .card-three {
   @include all-cards;
-  animation: card-three 3s infinite;
+  animation: card-three 2s infinite;
   z-index: 2;
 }
 
 .card-four {
   @include all-cards;
-  animation: card-four 3s infinite;
+  animation: card-four 2s infinite;
   z-index: 1;
 }
 
@@ -949,11 +940,11 @@ body {
 .btn {
   border-radius: 5px;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0.02em;
   line-height: 12px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 14px;
   padding: 14px 30px;
   cursor: pointer;
@@ -966,7 +957,7 @@ body {
 
 .c-container {
   margin: auto;
-  width: 93%;
+  width: 73%;
   position: relative;
   z-index: 1;
 }
@@ -977,7 +968,7 @@ body {
   background-image: none;
   border-width: 2px;
   border-color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
@@ -989,7 +980,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 12px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   padding: 14px 30px;
   cursor: pointer;
@@ -1003,16 +994,16 @@ body {
 /* common css up */
 
 .testimonial p {
-  font-size: 28px;
+  font-size: 20px;
   letter-spacing: 0.02em;
-  line-height: 35px;
+  line-height: 45px;
 }
 
 .testimonial .name {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.04em;
-  line-height: 35px;
+  line-height: 45px;
   text-align: left;
 }
 
@@ -1036,7 +1027,7 @@ body {
 }
 
 .gallery-thumbs {
-  height: 100%;
+  height: 90%;
 }
 
 .gallery-thumbs .swiper-wrapper {
@@ -1046,8 +1037,8 @@ body {
 .gallery-thumbs .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 250px !important;
-  height: 330px;
+  width: 220px !important;
+  height: 300px;
   position: relative;
 }
 
@@ -1095,8 +1086,8 @@ body {
 
 
 .testimonial-section .quote {
-  width: 75%;
-  height: 100%;
+  width: 55%;
+  height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1123,7 +1114,7 @@ body {
 }
 
 .testi-user-img {
-  width: 40%;
+  width: 60%;
 }
 
 .testimonial-section {
@@ -1140,7 +1131,7 @@ body {
 .testimonial-section .quote p {
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 2;
   font-style: italic;
   margin: 0;
 }
@@ -1151,6 +1142,8 @@ body {
   margin-bottom: 30px;
 }
 
+
+/* Footer */
 body {
   background: #fbfbfd;
 }
@@ -1174,7 +1167,7 @@ body {
 .footer_bottom {
   font-size: 14px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 30px;
   color: #7f88a6;
   padding: 27px 0px;
 }
@@ -1182,7 +1175,7 @@ body {
 .new_footer_top .company_widget p {
   font-size: 16px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 30px;
   color: #6a7695;
   margin-bottom: 20px;
 }
@@ -1240,7 +1233,7 @@ button:focus {
 .new_footer_top .f_social_icon a {
   width: 44px;
   height: 44px;
-  line-height: 43px;
+  line-height: 50px;
   background: transparent;
   border: 1px solid #e2e2eb;
   font-size: 24px;
@@ -1251,7 +1244,7 @@ button:focus {
   height: 46px;
   border-radius: 50%;
   font-size: 14px;
-  line-height: 45px;
+  line-height: 50px;
   color: #858da8;
   display: inline-block;
   background: #ebeef5;
@@ -1800,6 +1793,6 @@ body {
   width: 40px;
   height: 40px;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
   border-radius: 100%;
 }

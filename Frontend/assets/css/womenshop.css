@@ -129,6 +129,9 @@ header .mobile-navbar.active {
     background-color: black;
 }
 
+
+
+
 /* FILTERS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
@@ -449,6 +452,84 @@ img{
         clear: both;
     }
 }
+
+body {
+    background-color: #2c2c2c;
+ }  
+ 
+ main {
+     text-align: center;
+ }
+ 
+ 
+ img {
+     margin: 1rem;
+     padding: 0.5rem;
+     border: 0.15rem solid #E61E71;
+     border-radius: 15px;
+     width: 128px;
+     height: 128px;
+ }
+ 
+ 
+ input {
+     box-sizing: border-box;
+     appearance: none;
+     -webkit-appearance : none;
+     -moz-appearance : none;
+     -o-appearance : none;
+     cursor: pointer;
+     background-color: #12E694;
+     font-weight: 700;
+     letter-spacing: 0.08rem;
+     color: white;
+     color: hsl(335, 80%, 61%);
+     margin: 4rem 1rem;
+     padding: 1rem;
+     width: 10rem;
+     text-align: center;
+     border-radius: 7px;
+     transition: 0.3s ease-in-out;
+ }
+ 
+ input:active {
+     transform: scale(0.9);
+ }
+ 
+ 
+ input:nth-of-type(1):before {
+     content: "SWEETIES"
+ }
+ 
+ input:nth-of-type(2):before {
+     content: "DRINKS"
+ }
+ 
+ input:nth-of-type(3):before {
+     content: "FRUITS"
+ }
+ 
+ 
+ input[data-type="drinks"]:checked ~ .icons img:not([data-type="drinks"]) {
+     opacity: 0.15;
+     transition: 0.3s ease-in-out;
+ }
+ 
+ input[data-type="sweeties"]:checked ~ .icons img:not([data-type="sweeties"]) {
+     opacity: 0.15;
+     transition: 0.3s ease-in-out;
+ }
+ 
+ input[data-type="fruits"]:checked ~ .icons img:not([data-type="fruits"]) {
+     opacity: 0.15;
+     transition: 0.3s ease-in-out;
+ }
+ 
+ 
+ 
+ 
+
+
 /* PRODUCTS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
 
