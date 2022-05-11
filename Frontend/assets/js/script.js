@@ -12,20 +12,94 @@
 })(jQuery);
 
 // CATERGORIES
-//filter products
-var $mediaElements = $(".cd-item");
-$(".filter_link").click(function(e) {
-  e.preventDefault();
-  var filterVal = $(this).data("filter");
-  if (filterVal === "all") {
-    $mediaElements.slideDown("slow");
-  } else {
-    $mediaElements
-      .hide("slow")
-      .filter("." + filterVal)
-      .slideDown("slow");
-  }
+$(document).ready(function(){
+
+  $(".filter-button").click(function(){
+      var value = $(this).attr('data-filter');
+      
+      if(value == "all")
+      {
+          //$('.filter').removeClass('hidden');
+          $('.filter').show('1000');
+      }
+      else
+      {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+          $(".filter").not('.'+value).hide('3000');
+          $('.filter').filter('.'+value).show('3000');
+          
+      }
+  });
+  
+  if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
 });
+
+//// Ən çox satilanlar
+(function () {
+  window.myLib = {};
+
+  window.myLib.body = document.querySelector('body');
+
+  window.myLib.closestAttr = function (item, attr) {
+      var node = item;
+
+      while (node) {
+          var attrValue = node.getAttribute(attr);
+          if (attrValue) {
+              return attrValue;
+          }
+
+          node = node.parentElement;
+      }
+
+      return null;
+  };
+
+  window.myLib.closestItemByClass = function (item, className) {
+      var node = item;
+
+      while (node) {
+          if (node.classList.contains(className)) {
+              return node;
+          }
+
+          node = node.parentElement;
+      }
+
+      return null;
+  };
+
+  window.myLib.toggleScroll = function () {
+      myLib.body.classList.toggle('no-scroll');
+  };
+})();
+/* myLib end */
+
+
+
+
+
+
+
+//filter products
+// var $mediaElements = $(".cd-item");
+// $(".filter_link").click(function(e) {
+//   e.preventDefault();
+//   var filterVal = $(this).data("filter");
+//   if (filterVal === "all") {
+//     $mediaElements.slideDown("slow");
+//   } else {
+//     $mediaElements
+//       .hide("slow")
+//       .filter("." + filterVal)
+//       .slideDown("slow");
+//   }
+// });
 //filter products
 
 // $(document).ready(function () {
