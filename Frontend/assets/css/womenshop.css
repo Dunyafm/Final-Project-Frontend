@@ -914,8 +914,8 @@ PAGINATION */
 
 :root{
     font-family: "Poppins";
-    --primary-color-1: hsl(348, 68%, 34%);
-    --primary-color-2: hsl(20,94%,34%);
+    --primary-color-1: red;
+    --primary-color-2:whitesmoke;
     --primary-color-3: hsl(232,16%,34%);
     --primary-color-4: hsl(0, 0%, 25%);
     --text-area-color: whitesmoke;
@@ -954,7 +954,7 @@ input{
 }
 
 .shoe-area{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -975,7 +975,7 @@ input{
 }
 
 .logo-div img{
-    width: 70%;
+    width: 90%;
     opacity: 0.1;
 }
 

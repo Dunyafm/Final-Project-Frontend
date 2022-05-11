@@ -786,12 +786,12 @@ i.fa.fa-tag::before {
 /* Card Carousel SLIDER */
 
 #owl-demo .item {
-  margin: 3px;
+  margin: 5px;
 }
 
 #owl-demo .item img {
   display: block;
-  width: 700px;
+  width: 900px;
   height: 400px;
   margin-left: 50px;
   margin-right: 80px;
