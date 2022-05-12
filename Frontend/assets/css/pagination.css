@@ -1,0 +1,14 @@
+.img-list, .pagination
+{
+  float: left;
+  clear:both;
+  display: block;
+}
+
+.img-list img {
+ float: left;
+}
+
+.img-list img:nth-child(4n-1) {
+ clear:both;
+}
