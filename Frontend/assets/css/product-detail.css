@@ -1,66 +1,909 @@
-product-details-top {
-    margin-bottom: 1rem
+.product {
+    padding-bottom: 24px;
 }
 
-.product-gallery {
-    margin-bottom: 2rem
-}
-
-.product-main-image {
-    position: relative;
-    margin-bottom: 1rem
-}
-
-.product-main-image img {
-    max-width: none;
-    width: 100%
-}
-
-.btn-product-gallery {
-    position: absolute;
-    right: 2rem;
-    bottom: 2rem;
-    z-index: 49;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.photo {
+    float: left;
+    width: 360px;
     text-align: center;
-    width: 4rem;
-    height: 4rem;
-    color: #777;
-    font-weight: normal;
-    font-size: 2rem;
-    line-height: 1;
-    background-color: #fff;
-    box-shadow: 2px 6px 16px rgba(51, 51, 51, 0.05);
-    transition: all .35s ease
 }
 
-.btn-product-gallery:hover,
-.btn-product-gallery:focus {
-    color: #fff;
-    background-color: #c96
+.photo .big-photo[data-popup="on"] {
+    cursor: pointer;
 }
-
-.product-image-gallery {
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: -.5rem;
-    margin-right: -.5rem
-}
-
-.product-gallery-item {
+.photo .big-photo {
+    width: 100%;
+    height: 506px;
     position: relative;
-    display: block;
-    flex: 0 0 25%;
-    max-width: 25%;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    margin-bottom: 1rem
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.product.text-center .product-price,
-.product.text-center .ratings-container,
-.product.text-center .product-nav,
-.product.text-center .product-size {
-    justify-content: center
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.photo {
+    float: left;
+    width: 360px;
+    text-align: center;
+}
+
+.photo .big-photo li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    text-align: center;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+
+.photo .preview {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.photo .preview li {
+    float: left;
+    margin: 0 15px;
+}
+
+
+.photo .preview a {
+    display: block;
+    width: 67px;
+    height: 67px;
+    border: 1px solid #d7d7d7;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.product .info {
+    float: right;
+    width: 682px;
+}
+
+.line {
+    color: black;
+    text-align: right;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 24px;
+}
+
+
+.product .brand-name {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 19px 0 5px;
+    text-transform: uppercase;
+}
+
+
+.product .name {
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    padding-bottom: 31px;
+}
+
+.assortment {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.assortment {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+
+
+.assortment td:first-child {
+    padding-left: 20px;
+    text-align: center;
+}
+.assortment td {
+    height: 79px;
+    padding: 0 10px;
+    border: solid #d7d7d7;
+    border-width: 1px 0;
+    vertical-align: middle;
+}
+
+.assortment img {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.assortment td {
+    height: 79px;
+    padding: 0 10px;
+    border: solid #d7d7d7;
+    border-width: 1px 0;
+    vertical-align: middle;
+}
+
+.assortment .attraction td {
+    border-color: #e10035;
+}
+.assortment td {
+    height: 79px;
+    padding: 0 10px;
+    border: solid #d7d7d7;
+    border-width: 1px 0;
+    vertical-align: middle;
+}
+
+.assortment .separator {
+    color: #e10035;
+}
+
+.assortment .price-holder {
+    vertical-align: middle;
+    padding: 0 0 8px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.price-holder {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 2px;
+}
+
+.price-holder .price {
+    margin: 0 0 0 8px;
+    font-size: 25px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.price {
+    line-height: 17px;
+}
+.price {
+    display: block;
+    font-weight: 900;
+}
+
+.assortment .attraction td {
+    border-color: #e10035;
+}
+.assortment td {
+    height: 79px;
+    padding: 0 10px;
+    border: solid #d7d7d7;
+    border-width: 1px 0;
+    vertical-align: middle;
+}
+
+.number {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    width: 66px;
+}
+
+.number input {
+    width: 44px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.number .fa-angle-up {
+    top: -3px;
+}
+.number .fa {
+    position: absolute;
+    right: 0;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.assortment .attraction td:last-child {
+    border-right-width: 1px;
+}
+.assortment .attraction td {
+    border-color: #e10035;
+}
+.assortment td:last-child {
+    padding-right: 20px;
+}
+.assortment td {
+    height: 79px;
+    padding: 0 10px;
+    border: solid #d7d7d7;
+    border-width: 1px 0;
+    vertical-align: middle;
+}
+
+.assortment .button {
+    width: 100px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.button.upper {
+    text-transform: uppercase;
+}
+.upper {
+    text-transform: uppercase;
+}
+.button {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #252525;
+    color: white;
+    font: 15px/40px "Futura New","Arial","Helvetica Neue","Helvetica",sans-serif;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0 20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    -webkit-transition-property: background-color,color,border-color;
+    transition-property: background-color,color,border-color;
+    text-decoration: none;
+    letter-spacing: .1em;
+}
+body {
+    color: #000;
+    background: #fff;
+    font: 18px/24px "Futura New","Arial","Helvetica Neue","Helvetica",sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.assortment td:first-child {
+    padding-left: 20px;
+    text-align: center;
+}
+.assortment {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bot
+}
+
+.assortment .separator {
+    color: #e10035;
+}
+
+
+.assortment .price-holder {
+    vertical-align: middle;
+    padding: 0 0 8px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.price-holder {
+    display: inline-block;
+
+}
+.price-holder .price {
+    margin: 0 0 0 8px;
+    font-size: 25px;
+    line-height: 30px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.number {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    width: 66px;
+}
+
+.number input {
+    width: 44px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.number .fa-angle-up {
+    top: -3px;
+}
+.number .fa {
+    position: absolute;
+    right: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.fa-angle-up:before {
+    content: "\f106";
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    outline: none;
+}
+.number .fa-angle-down {
+    bottom: -3px;
+}
+.number .fa {
+    position: absolute;
+    right: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #252525;
+    color: white;
+    font: 15px/40px "Futura New","Arial","Helvetica Neue","Helvetica",sans-serif;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0 20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    -webkit-transition-property: background-color,color,border-color;
+    transition-property: background-color,color,border-color;
+    text-decoration: none;
+    letter-spacing: .1em;
+}
+
+.assortment td:first-child {
+    padding-left: 20px;
+    text-align: center;
+}
+.assortment {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.assortment .separator {
+    color: #e10035;
+}
+
+.assortment .price-holder {
+    vertical-align: middle;
+    padding: 0 0 8px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.number {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    width: 66px;
+}
+
+.number input {
+    width: 44px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.number .fa-angle-up {
+    top: -3px;
+}
+.number .fa {
+    position: absolute;
+    right: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a {
+    background-color: transparent;
+}
+
+.number .fa-angle-down {
+    bottom: -3px;
+}
+.number .fa {
+    position: absolute;
+    right: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #252525;
+    color: white;
+    font: 15px/40px "Futura New","Arial","Helvetica Neue","Helvetica",sans-serif;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0 20px;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    -webkit-transition-property: background-color,color,border-color;
+    transition-property: background-color,color,border-color;
+    text-decoration: none;
+    letter-spacing: .1em;
+}
+
+img {
+    border: 0;
+}
+
+.share {
+    font-size: 30px;
+    line-height: 24px;
+    float: left;
+}
+
+.share span {
+    display: block;
+    padding-bottom: 12px;
+}
+
+.product .social-list {
+    padding: 0;
+}
+.social-list {
+    float: left;
+    padding-top: 5px;
+}
+
+.social-list li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.product .social-list a {
+    background-color: #f2f2f2;
+    color: #e10035;
+}
+.social-list a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #e10035;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.product .social-list a {
+    background-color: #f2f2f2;
+    color: #e10035;
+}
+.social-list a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #e10035;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+
+}
+
+.quick-order {
+    float: right;
+    width: 314px;
+    font-size: 18px;
+    line-height: 24px;
+}
+form, fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+.quick-order label {
+    display: block;
+    padding-bottom: 12px;
+}
+
+.quick-order input {
+    width: calc(100% - 111px)!important;
+}
+
+.quick-order .button {
+    letter-spacing: normal;
+    min-width: 84px;
+    float: right;
+}
+.button.red {
+    background-color: #e10035;
+    font-weight: 900;
+}
+
+.quick-order input {
+    width: calc(100% - 111px)!important;
+}
+.quick-order input {
+    float: left;
+    width: calc(100% - 104px);
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.quick-order input {
+    width: calc(100% - 111px)!important;
+}
+.quick-order input {
+    float: left;
+    width: calc(100% - 104px);
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.red-stripe {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 16px;
+    font-family: "Narziss Pro AZ","Times New Roman","Times","Baskerville","Georgia",serif;
+    border-bottom: 2px solid #c9ced4;
+    padding-bottom: 10px;
+}
+
+.red-stripe span {
+    position: relative;
+    padding-right: 10px;
+}
+h1 span, .h1 span, h2 span, .h2 span, h3 span, .h3 span, h4 span, .h4 span, h5 span, .h5 span, h6 span, .h6 span, .h span {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-right: 20px;
+}
+
+.details-info {
+    float: left;
+    width: 340px;
+    padding: 0;
+    margin: 0 35px 40px 0;
+}
+
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.details-info dd {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.details-info dd {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.details-info a {
+    border-bottom: 1px solid;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+element.style {
+}
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.hide {
+    display: none!important;
+}
+
+.details-info a {
+    border-bottom: 1px solid;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.details-info dd {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.details-info dd {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.details-info a {
+    border-bottom: 1px solid;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.details-info dt {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.hide {
+    display: none!important;
+}
+
+.details-info dd {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+.hide {
+    display: none!important;
+}
+
+.about-prod {
+    overflow: hidden;
+    margin: 0 0 40px;
+}
+
+.about-prod .frame {
+    padding-left: 35px;
+    overflow: hidden;
+}
+
+/* NOTES */
+
+.red-stripe {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 16px;
+    font-family: "Narziss Pro AZ","Times New Roman","Times","Baskerville","Georgia",serif;
+    border-bottom: 2px solid #c9ced4;
+    padding-bottom: 10px;
+}
+
+.red-stripe span {
+    position: relative;
+    padding-right: 10px;
+}
+
+
+.note {
+    margin: 0 -42px;
+}
+
+.note .item {
+    width: 33.333%;
+    padding: 0 42px 40px;
+}
+.product-list>*, .date-list>*, .vote-holder>*, .blog-list>*, .note>*, .note ul>*, .brand-item ul>*, .fade-gallery .preview>*, .tab-controls>*, .account-form .row-inline>*, .popup .photo .preview>* {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+h4, .h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .h {
+    font-family: inherit;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+    color: inherit;
+}
+
+.note ul {
+    margin: 0 -2px;
+}
+.product-list, .date-list, .vote-holder, .blog-list, .note, .note ul, .brand-item ul, .fade-gallery .preview, .tab-controls, .account-form .row-inline, .popup .photo .preview {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -5px;
+}
+
+.note li {
+    width: 33.333%;
+    padding: 0 2px 4px;
+}
+.product-list>*, .date-list>*, .vote-holder>*, .blog-list>*, .note>*, .note ul>*, .brand-item ul>*, .fade-gallery .preview>*, .tab-controls>*, .account-form .row-inline>*, .popup .photo .preview>* {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.note a {
+    display: block;
+    position: relative;
+    height: 100px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a {
+    background-color: transparent;
 }
