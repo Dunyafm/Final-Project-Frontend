@@ -16,8 +16,8 @@ header nav {
 }
 
 header nav #logo {
-  width: 205px;
-  height: 25px;
+  width: 255px;
+  height: 35px;
 }
 
 header nav #mobile-navbar-show {
@@ -27,7 +27,7 @@ header nav #mobile-navbar-show {
 
 header nav ul li {
   position: relative;
-  padding: 38px 20px;
+  padding: 48px 20px;
 }
 
 header nav ul li a {
@@ -948,19 +948,19 @@ body {
 }
 
 .footer_bottom {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
   color: #7f88a6;
-  padding: 27px 0px;
+  padding: 35px 0px;
 }
 
 .new_footer_top .company_widget p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
   color: #6a7695;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -998,7 +998,8 @@ button:focus {
 }
 
 .new_footer_top .f_widget.about-widget .f_list li {
-  margin-bottom: 11px;
+  margin-bottom: 20px;
+  font-size: large;
 }
 
 .f_widget.about-widget .f_list li:last-child {
@@ -1014,20 +1015,20 @@ button:focus {
 }
 
 .new_footer_top .f_social_icon a {
-  width: 44px;
-  height: 44px;
-  line-height: 50px;
+  width: 40px;
+  height: 45px;
+  line-height: 70px;
   background: transparent;
   border: 1px solid #e2e2eb;
-  font-size: 24px;
+  font-size: 60px;
 }
 
 .f_social_icon a {
-  width: 46px;
-  height: 46px;
+  width: 66px;
+  height: 66px;
   border-radius: 50%;
-  font-size: 14px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 70px;
   color: #858da8;
   display: inline-block;
   background: #ebeef5;
@@ -1077,16 +1078,16 @@ button:focus {
 }
 
 .new_footer_top .f-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #263b5e;
 }
 
 .f_600 {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .f_size_18 {
-  font-size: 18px;
+  font-size: 38px;
 }
 
 h1,
