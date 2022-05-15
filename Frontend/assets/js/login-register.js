@@ -1,12 +1,22 @@
-let $id = (id) => document.getElementById(id);
-var [login, register, form] = ['login', 'register', 'form'].map(id => $id(id));
 
-[login, register].map(element => {
-    element.onclick = function () {
-        [login, register].map($ele => {
-            $ele.classList.remove("active");
-        });
-        this.classList.add("active");
-        this.getAttribute("id") === "register"?  form.classList.add("active") : form.classList.remove("active");
-    }
-});
+
+  $(window).on('load', function () {
+    // initialization of HSMegaMenu component
+    $('.js-mega-menu').HSMegaMenu({
+      event: 'hover',
+      pageContainer: $('.container'),
+      breakpoint: 767.98,
+      hideTimeOut: 0
+    });
+
+    // initialization of svg injector module
+    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+  });
+
+  $(document).on('ready', function () {
+    // initialization of header
+    $.HSCore.components.HSHeader.init($('#header'));
+
+    // initialization of unfold component
+    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+  });
