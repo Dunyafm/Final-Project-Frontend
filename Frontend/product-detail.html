@@ -12,13 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <script src="./assets/js/product-detail.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
 
-    <!-- Favicon -->
+
+    <!-- Favicon
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
@@ -29,7 +25,7 @@
     <meta name="application-name" content="Molla">
     <meta name="msapplication-TileColor" content="#cc9966">
     <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> -->
     <!-- Plugins CSS File -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
@@ -37,11 +33,115 @@
     <!-- Main CSS File -->
     <link rel="stylesheet" href="assets/css/product-detail.css">
     <link rel="stylesheet" href="assets/css/plugins/nouislider/nouislider.css">
+
+    <!-- ICONS FOR LINKS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Notalar</title>
 </head>
 
 <body>
+    <!-- HEADER START -->
 
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- NAV-BAR START -->
+                    <nav
+                        class="navbar navbar-expand-lg d-flex d-lg-block justify-content-between d-xl-flex navbar-light py-3 py-lg-0">
+                        <a class="navbar-brand" href="#">
+                            <img style="width: 100%;height: 100%;" src="assets/img/logo/Worldlogo.png" alt="" id="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" id="mobile-navbar-show">
+                            <span class="navbar-toggler-icon" style="font-size: 12px;"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ƏTİRLƏR </a>
+                                    <ul class="list-unstyled py-3">
+                                        <li class=""><a class="px-1" href="">TOMFORD</a></li>
+                                        <li class=""><a class="px-1" href="">DIOR</a></li>
+                                        <li class=""><a class="px-1" href="">BYREDO</a></li>
+                                        <li class=""><a class="px-1" href="">GUCCI</a></li>
+                                        <li class=""><a class="px-1" href="">KILIAN</a></li>
+                                        <li class=""><a class="px-1" href="">GIORGIO ARMANI</a></li>
+                                        <li class=""><a class="px-1" href="">BYREDO</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">KİŞİ </a>
+
+                                </li>
+                                <li class="nav-item shop-li">
+                                    <a class="nav-link" href="#">QADIN </a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">UNISEX </a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BLOQ</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ƏLAQƏ</a>
+
+                                </li>
+
+                                <!-- Collapsible wrapper -->
+
+                                <!-- Right elements -->
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="header__nav__option">
+                                        <a href="#" class="search-switch"><img src="./assets/img/icons/search.png"
+                                                alt=""></a>
+                                        <a href="#"><img src="./assets/img/icons/heart.png" alt=""></a>
+                                        <a href="#"><img src="./assets/img/icons/cart.png" alt=""> <span>0</span></a>
+                                        <div class="price">$0.00</div>
+                                    </div>
+                                </div>
+                                <!-- Right elements -->
+
+                            </ul>
+
+                        </div>
+
+                    </nav>
+                    <!-- NAV-BAR END -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mobile-navbar position-absolute shadow-lg h-100 p-5">
+            <i class="fas fa-times fa-lg" id="mobile-navbar-close"></i>
+            <ul class="list-unstyled">
+                <li><a href="#">ƏTİRLƏR <i class="fas fa-caret-right fa-sm"></i></a></li>
+
+                <li><a href="#">KİŞİ <i class="fas fa-caret-right fa-sm"></i></a></li>
+
+                <li><a href="#">QADIN <i class="fas fa-caret-right fa-sm"></i></a></a></li>
+
+                <li><a href="#">UNISEX <i class="fas fa-caret-right fa-sm"></i></a></a></li>
+
+                <li><a href="#">Blog <i class="fas fa-caret-right fa-sm"></i></a></a></li>
+
+                <li><a href="#">Əlaqə <i class="fas fa-caret-right fa-sm"></i></a></a></li>
+
+            </ul>
+        </div>
+
+
+    </header>
+
+    <!-- HEADER END -->
     <div class="container">
         <div class="product">
             <div class="photo gallery-js-ready not-enough-slides autorotation-disabled">
@@ -93,7 +193,7 @@
                     Christian Dior Hypnotic Poison qiyməti </strong>
                 <table class="assortment">
                     <tbody>
-                     
+
                         <tr class="">
                             <td><img src="https://larose.az/images/gallery2/LR11072/183.jpg" width="220" height="293"
                                     alt="Christian Dior Hypnotic Poison"></td>
@@ -156,176 +256,278 @@
                                 ET</button>
                         </fieldset>
                         <input type="hidden" name="mehsul_id" value="5133">
-                        <input type="hidden" name="csrf_" value="6eb13d6f1b300651fdcadcbc7630cd17">
+                        <input type="hidden" name="csrf_" value="483e968a8be73f8c2aaa285f32c5ed75">
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-        
-        <strong class="h2 red-stripe"><span>Christian Dior Hypnotic Poison xüsusiyyətləri</span></strong>
-        <span>Christian Dior Hypnotic Poison xüsusiyyətləri</span>
-        <div class="clearfix">
-            <dl class="details-info">
-                <dt class="a ">Ətir növü</dt>
-                <dd class="a ">Eau de Toilette (EDT)</dd>
 
-                <dt class="a ">Cins</dt>
-                <dd class="a "><a href="https://larose.az/perfume-for-women">Qadın üçün</a></dd>
+    <strong class="h2 red-stripe"><span>Christian Dior Hypnotic Poison xüsusiyyətləri</span></strong>
+    <span>Christian Dior Hypnotic Poison xüsusiyyətləri</span>
+    <div class="clearfix">
+        <dl class="details-info">
+            <dt class="a ">Ətir növü</dt>
+            <dd class="a ">Eau de Toilette (EDT)</dd>
 
-                <dt class=" hide">Yaş</dt>
-                <dd class=" hide"></dd>
+            <dt class="a ">Cins</dt>
+            <dd class="a "><a href="">Qadın üçün</a></dd>
+
+            <dt class=" hide">Yaş</dt>
+            <dd class=" hide"></dd>
 
 
-                <dt class="a ">Brend</dt>
-                <dd><a href="https://larose.az/brand/christian-dior-81">Christian Dior</a></dd>
+            <dt class="a ">Brend</dt>
+            <dd><a href="">Christian Dior</a></dd>
 
-                <dt class="a">Brendin ölkəsi</dt>
-                <dd class="a">Fransa</dd>
+            <dt class="a">Brendin ölkəsi</dt>
+            <dd class="a">Fransa</dd>
 
-                <dt class="a ">Qrup</dt>
-                <dd class="a ">
-                    <a href="https://larose.az/parametr/oriental-6-844">Şərq</a>&nbsp;&nbsp; <a
-                        href="https://larose.az/parametr/oriental-6-860">Vanilli</a>&nbsp;&nbsp;
-                </dd>
+            <dt class="a ">Qrup</dt>
+            <dd class="a ">
+                <a href="https://larose.az/parametr/oriental-6-844">Şərq</a>&nbsp;&nbsp; <a
+                    href="https://larose.az/parametr/oriental-6-860">Vanilli</a>&nbsp;&nbsp;
+            </dd>
 
-                <dt class=" hide">Təyinatı</dt>
-                <dd class=" hide"><a href="https://larose.az/parametr/-10-"></a></dd>
-            </dl>
-            <div class="about-prod">
-                <div class="frame">
-                    <p></p>
+            <dt class=" hide">Təyinatı</dt>
+            <dd class=" hide"><a href="https://larose.az/parametr/-10-"></a></dd>
+        </dl>
+        <div class="about-prod">
+            <div class="frame">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <strong class="h2 red-stripe"><span>Christian Dior Hypnotic Poison notları</span></strong>
+    <div class="note">
+        <div class="item">
+            <h4>Üst notları</h4>
+            <ul>
+                <li>
+                    <a href="https://larose.az/parametr/plum-665"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/665.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/665.jpg" width="" height="" alt="Gavalı"
+                            style="display: none;">
+                        <span>Gavalı</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/coconut-335"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/335.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/335.jpg" width="" height="" alt="Kokos"
+                            style="display: none;">
+                        <span>Kokos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/apricot-198"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/198.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/198.jpg" width="" height="" alt="Ərik"
+                            style="display: none;">
+                        <span>Ərik</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Ürək notları</h4>
+            <ul>
+                <li>
+                    <a href="https://larose.az/parametr/lily-of-the-valley-522"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/522.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/522.jpg" width="" height=""
+                            alt="İnciçiçəyi" style="display: none;">
+                        <span>İnciçiçəyi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/jasmine-487"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/487.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/487.jpg" width="" height="" alt="Jasmin"
+                            style="display: none;">
+                        <span>Jasmin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/palisander-rosewood-621"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/621.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/621.jpg" width="" height=""
+                            alt="Palisandr (Çəhrayı Ağac)" style="display: none;">
+                        <span>Palisandr (Çəhrayı Ağac)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/rose-703"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/703.png&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/703.png" width="" height="" alt="Qızılgül"
+                            style="display: none;">
+                        <span>Qızılgül</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/tuberose-797"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/797.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/797.jpg" width="" height="" alt="Tuberoza"
+                            style="display: none;">
+                        <span>Tuberoza</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/cumin-357"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/357.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/357.jpg" width="" height="" alt="Zirə"
+                            style="display: none;">
+                        <span>Zirə</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Baza notları</h4>
+            <ul>
+                <li>
+                    <a href="https://larose.az/parametr/almond-172"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/172.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/172.jpg" width="" height="" alt="Badam"
+                            style="display: none;">
+                        <span>Badam</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/musk-588"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/588.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/588.jpg" width="" height="" alt="Müşk"
+                            style="display: none;">
+                        <span>Müşk</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/sandal-719"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/719.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/719.jpg" width="" height="" alt="Səndəl"
+                            style="display: none;">
+                        <span>Səndəl</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://larose.az/parametr/vanilla-801"
+                        style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/801.jpg&quot;);">
+                        <img src="https://larose.az/images/attributes_inner/9/801.jpg" width="" height="" alt="Vanil"
+                            style="display: none;">
+                        <span>Vanil</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+
+                    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has
+                        been the industry's standard dummy text ever since the 1500s</p>
+                    <p><i class="fa fa-location-arrow"></i> BAKİ AZƏRBAYCAN </p>
+                    <p><i class="fa fa-phone"></i> +9943176685 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+                        <li><a href="http://webenlance.com">Clipping Path</a></li>
+                        <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+                        <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+
+                    <ul class="footer-page-one">
+                        <li><a href="http://webenlance.com">Remove Background</a></li>
+                        <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+                        <li><a href="http://webenlance.com">Logo Design</a></li>
+                        <li><a href="http://webenlance.com">Vectorization</a></li>
+                        <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+
+                    <ul class="footer-page-two">
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a
+                                    href="#">https://www.lipsum.com/</a></p>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
 
-        <strong class="h2 red-stripe"><span>Christian Dior Hypnotic Poison notları</span></strong>
-        <div class="note">
-            <div class="item">
-                <h4>Üst notları</h4>
-                <ul>
-                    <li>
-                        <a href="https://larose.az/parametr/plum-665"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/665.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/665.jpg" width="" height=""
-                                alt="Gavalı" style="display: none;">
-                            <span>Gavalı</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/coconut-335"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/335.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/335.jpg" width="" height=""
-                                alt="Kokos" style="display: none;">
-                            <span>Kokos</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/apricot-198"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/198.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/198.jpg" width="" height="" alt="Ərik"
-                                style="display: none;">
-                            <span>Ərik</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="item">
-                <h4>Ürək notları</h4>
-                <ul>
-                    <li>
-                        <a href="https://larose.az/parametr/lily-of-the-valley-522"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/522.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/522.jpg" width="" height=""
-                                alt="İnciçiçəyi" style="display: none;">
-                            <span>İnciçiçəyi</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/jasmine-487"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/487.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/487.jpg" width="" height=""
-                                alt="Jasmin" style="display: none;">
-                            <span>Jasmin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/palisander-rosewood-621"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/621.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/621.jpg" width="" height=""
-                                alt="Palisandr (Çəhrayı Ağac)" style="display: none;">
-                            <span>Palisandr (Çəhrayı Ağac)</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/rose-703"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/703.png&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/703.png" width="" height=""
-                                alt="Qızılgül" style="display: none;">
-                            <span>Qızılgül</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/tuberose-797"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/797.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/797.jpg" width="" height=""
-                                alt="Tuberoza" style="display: none;">
-                            <span>Tuberoza</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/cumin-357"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/357.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/357.jpg" width="" height="" alt="Zirə"
-                                style="display: none;">
-                            <span>Zirə</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="item">
-                <h4>Baza notları</h4>
-                <ul>
-                    <li>
-                        <a href="https://larose.az/parametr/almond-172"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/172.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/172.jpg" width="" height=""
-                                alt="Badam" style="display: none;">
-                            <span>Badam</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/musk-588"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/588.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/588.jpg" width="" height="" alt="Müşk"
-                                style="display: none;">
-                            <span>Müşk</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/sandal-719"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/719.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/719.jpg" width="" height=""
-                                alt="Səndəl" style="display: none;">
-                            <span>Səndəl</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://larose.az/parametr/vanilla-801"
-                            style="background-image: url(&quot;https://larose.az/images/attributes_inner/9/801.jpg&quot;);">
-                            <img src="https://larose.az/images/attributes_inner/9/801.jpg" width="" height=""
-                                alt="Vanil" style="display: none;">
-                            <span>Vanil</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-       
-    
- 
 
+        <div class="container">
+            <ul class="footer-bottom">
+                <li><a href="http://webenlance.com">Home</a></li>
+                <li><a href="http://webenlance.com">About</a></li>
+                <li><a href="http://webenlance.com">Services</a></li>
+                <li><a href="http://webenlance.com">Pricing</a></li>
+                <li><a href="http://webenlance.com">Blog</a></li>
+                <li><a href="http://webenlance.com">Contact</a></li>
+            </ul>
+
+            <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+
+            <ul class="social-footer-ul">
+                <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/?next=/worldperfumluxury/"><i
+                            class="fab fa-instagram"></i></a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+    <!-- FOOTER END     -->
+
+    <script src="./assets/js/product-detail.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery.hoverIntent.min.js"></script>
