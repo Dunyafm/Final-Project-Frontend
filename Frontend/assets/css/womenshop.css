@@ -1516,245 +1516,129 @@ input{
 }
 
 
-/* FOOTER */
-body {
-  background: #fbfbfd;
-}
+/* FOOTER START */
+/* FOOTER CSS */
 
-.new_footer_area {
-  background: #fbfbfd;
-}
-
-
-.new_footer_top {
-  padding: 120px 0px 270px;
-  position: relative;
-  overflow-x: hidden;
-}
-
-.new_footer_area .footer_bottom {
-  padding-top: 5px;
-  padding-bottom: 50px;
-}
-
-.footer_bottom {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  color: #7f88a6;
-  padding: 27px 0px;
-}
-
-.new_footer_top .company_widget p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  color: #6a7695;
-  margin-bottom: 20px;
-}
-
-.new_footer_top .company_widget .f_subscribe_two .btn_get {
-  border-width: 1px;
-  margin-top: 20px;
-}
-
-.btn_get_two:hover {
-  background: transparent;
-  color: #5e2ced;
-}
-
-.btn_get:hover {
-  color: #fff;
-  background: #6754e2;
-  border-color: #6754e2;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-a:hover,
-a:focus,
-.btn:hover,
-.btn:focus,
-button:hover,
-button:focus {
-  text-decoration: none;
-  outline: none;
-}
-
-
-
-
-
-.new_footer_top .f_widget.about-widget .f_list li a:hover {
-  color: #5e2ced;
-}
-
-.new_footer_top .f_widget.about-widget .f_list li {
-  margin-bottom: 11px;
-}
-
-.f_widget.about-widget .f_list li:last-child {
-  margin-bottom: 0px;
-}
-
-.f_widget.about-widget .f_list li {
-  margin-bottom: 15px;
-}
-
-.f_widget.about-widget .f_list {
-  margin-bottom: 0px;
-}
-
-.new_footer_top .f_social_icon a {
-  width: 44px;
-  height: 44px;
-  line-height: 43px;
-  background: transparent;
-  border: 1px solid #e2e2eb;
-  font-size: 24px;
-}
-
-.f_social_icon a {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  font-size: 14px;
-  line-height: 45px;
-  color: #858da8;
-  display: inline-block;
-  background: #ebeef5;
-  text-align: center;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.ti-facebook:before {
-  content: "\e741";
-}
-
-.ti-twitter-alt:before {
-  content: "\e74b";
-}
-
-.ti-vimeo-alt:before {
-  content: "\e74a";
-}
-
-.ti-pinterest:before {
-  content: "\e731";
-}
-
-.btn_get_two {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background: #5e2ced;
-  border-color: #5e2ced;
-  color: #fff;
-}
-
-.btn_get_two:hover {
-  background: transparent;
-  color: #5e2ced;
-}
-
-.new_footer_top .f_social_icon a:hover {
-  background: #5e2ced;
-  border-color: #5e2ced;
-  color: white;
-}
-
-.new_footer_top .f_social_icon a+a {
-  margin-left: 4px;
-}
-
-.new_footer_top .f-title {
-  margin-bottom: 30px;
-  color: #263b5e;
-}
-
-.f_600 {
-  font-weight: 600;
-}
-
-.f_size_18 {
-  font-size: 18px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #4b505e;
-}
-
-.new_footer_top .f_widget.about-widget .f_list li a {
-  color: #6a7695;
-}
-
-
-.new_footer_top .footer_bg {
-  position: absolute;
-  bottom: 0;
-  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
-  width: 100%;
-  height: 266px;
-}
-
-.new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://media0.giphy.com/media/H6hw5PYMmT8ANvbJCX/giphy.gif?cid=ecf05e47yukeh6ccqy9j5xa129dug0b41pii6ccxwyy92fs5&rid=giphy.gif&ct=g") no-repeat center center;
-  width: 330px;
-  height: 105px;
-  background-size: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 30%;
-  -webkit-animation: myfirst 22s linear infinite;
-  animation: myfirst 22s linear infinite;
-}
-
-.new_footer_top .footer_bg .footer_bg_two {
-  background: url("https://media2.giphy.com/media/xUA7b3JB7WAIGVbyTK/giphy.gif?cid=ecf05e47b1snd1mopo26dy6wvhq0edyhc9gdaqwmeqqkpakl&rid=giphy.gif&ct=g") no-repeat center center;
-  width: 100px;
-  height: 100px;
-  background-size: 220%;
-  bottom: 0;
-  left: 50%;
-  position: absolute;
-  -webkit-animation: myfirst 30s linear infinite;
-  animation: myfirst 30s linear infinite;
-}
-
-
-
-@-moz-keyframes myfirst {
-  0% {
-    left: -25%;
+.col_white_amrc {
+    color: #FFF;
   }
-
-  100% {
-    left: 100%;
+  
+  footer {
+    width: 100%;
+    background-color: #263238;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
   }
-}
-
-@-webkit-keyframes myfirst {
-  0% {
-    left: -25%;
+  
+  .pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
   }
-
-  100% {
-    left: 100%;
+  
+  footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
   }
-}
-
-@keyframes myfirst {
-  0% {
-    left: -25%;
+  
+  .mb10 {
+    padding-bottom: 15px;
   }
-
-  100% {
-    left: 100%;
+  
+  .footer-page-one {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
   }
-}
+  
+  .footer-page-one li {
+    padding: 0px 0px 5px 0px;
+  }
+  
+  .footer-page-one li a {
+    color: #CCC;
+  }
+  
+  .footer-page-one li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .fleft {
+    float: left;
+  }
+  
+  .padding-right {
+    padding-right: 10px;
+  }
+  
+  .footer-page-two {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .footer-page-two li p {
+    display: table;
+  }
+  
+  .footer-page-two li a:hover {
+    text-decoration: none;
+  }
+  
+  .footer-page-two li i {
+    margin-top: 5px;
+  }
+  
+  .bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px;
+  }
+  
+  .footer-page-one {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+  }
+  
+  .footer-bottom li {
+    display: inline;
+  }
+  
+  .footer-bottom li a {
+    color: #999;
+    margin: 0 12px;
+  }
+  
+  .social-footer-ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+  }
+  
+  .social-footer-ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+  }
+  
+  .social-footer-ul li a {
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .social-footer-ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+  /* FOOTER END */
+  
