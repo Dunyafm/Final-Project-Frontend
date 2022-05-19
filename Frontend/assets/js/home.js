@@ -78,7 +78,7 @@ $(this).addClass("active");
       myLib.body.classList.toggle('no-scroll');
   };
 })();
-/* myLib end */
+
 
 // BRANDS LOGO JS
 $(function() {
@@ -111,42 +111,6 @@ $(function() {
       }
     }
   });
-
-
-
-
-//filter products
-// var $mediaElements = $(".cd-item");
-// $(".filter_link").click(function(e) {
-//   e.preventDefault();
-//   var filterVal = $(this).data("filter");
-//   if (filterVal === "all") {
-//     $mediaElements.slideDown("slow");
-//   } else {
-//     $mediaElements
-//       .hide("slow")
-//       .filter("." + filterVal)
-//       .slideDown("slow");
-//   }
-// });
-//filter products
-
-// $(document).ready(function () {
-
-//   $("#owl-demo").owlCarousel({
-
-//     autoPlay: 2000, //Set AutoPlay to 2 seconds
-
-//     items: 4,
-//     itemsDesktop: [1199, 3],
-//     itemsDesktopSmall: [979, 3]
-
-//   });
-
-// });
-
-// TESTIMONIAL
-
 
 
 // RESPONSIVE CARD
