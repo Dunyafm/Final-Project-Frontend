@@ -1515,8 +1515,7 @@ input{
 }
 
 
-/* FOOTER START */
-/* FOOTER CSS */
+/* FOOTER CSS START */
 
 .col_white_amrc {
     color: #FFF;
@@ -1524,9 +1523,8 @@ input{
   
   footer {
     width: 100%;
-    height: 100%;
     background-color: #263238;
- 
+    min-height: 250px;
     padding: 10px 0px 25px 0px;
   }
   
@@ -1558,11 +1556,17 @@ input{
   }
   
   .footer-page-one li a {
-    color: #CCC;
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
   }
   
+  
   .footer-page-one li a:hover {
-    color: #fff;
+    color: white;
     text-decoration: none;
   }
   
@@ -1629,8 +1633,8 @@ input{
   }
   
   .social-footer-ul li a {
-    color: #CCC;
-    border: 1px solid #CCC;
+    color: white;
+    border: 1px solid white;
     padding: 8px;
     border-radius: 50%;
   }
@@ -1641,4 +1645,3 @@ input{
     text-align: center;
   }
   /* FOOTER END */
-  
