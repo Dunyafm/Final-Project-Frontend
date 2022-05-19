@@ -263,11 +263,6 @@ header .mobile-navbar.active {
   margin-right: 26px;
   position: relative;
 }
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-}
 
 .header__nav__option .price {
   font-size: 15px;
@@ -436,9 +431,7 @@ a {
 }
 
 
-
-/* FOOTER START */
-/* FOOTER CSS */
+/* FOOTER CSS START */
 
 .col_white_amrc {
   color: #FFF;
@@ -479,11 +472,17 @@ footer p {
 }
 
 .footer-page-one li a {
-  color: #CCC;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
 }
 
+
 .footer-page-one li a:hover {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -550,8 +549,8 @@ footer p {
 }
 
 .social-footer-ul li a {
-  color: #CCC;
-  border: 1px solid #CCC;
+  color: white;
+  border: 1px solid white;
   padding: 8px;
   border-radius: 50%;
 }
