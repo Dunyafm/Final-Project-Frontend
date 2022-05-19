@@ -268,14 +268,15 @@ a:hover {
 }
 
 .section-products .header h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #fe302f;
-    font-weight: 500;
+    font-weight: 40px;
 }
 
 .section-products .header h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-family:sans-serif;
+    font-weight: 100px;
     color: #444444; 
 }
 
@@ -478,6 +479,7 @@ padding:10px;
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     background: #FFF;
+    
 }
 .slider-item .slider-image img{
     margin: 0 auto;
@@ -486,9 +488,12 @@ padding:10px;
 .slider-item .slider-main-detail{
     padding: 10px;
     border-radius: 0 0 5px 5px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif ;
 }
 .slider-item:hover .slider-main-detail{
     background-color: #dbeeee !important;
+    
 }
 .slider-item .price{
     float: left;
@@ -496,8 +501,10 @@ padding:10px;
 }
 .slider-item .price h5{
     line-height: 20px;
+    font-size: larger;
     margin: 0;
 }
+
 .detail-price{
     color: #219FD1;
 }
@@ -518,7 +525,7 @@ padding:10px;
     border-right: 1px solid #E1E1E1;
 }
 .slider-item .btn-details{
-    width: 50%;
+    width: 60%;
     float: left;
 }
 .controls{
@@ -544,12 +551,6 @@ padding:10px;
 	margin-bottom: 5px;
 	padding-top:5px;
 }
-
-
-
-
-
-
 
 
 
@@ -863,7 +864,7 @@ body {
 /* SUBSCRIBE START CSS */
 
 #subscribe {
-  background: url(../img/instagram-posts/LIBRE.jpg);
+  background: url(../img/slider/subscribe-libre.jpg);
   background-attachment: fixed;
 }
 
