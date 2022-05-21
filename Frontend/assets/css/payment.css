@@ -35,7 +35,7 @@ body{
 }
 .card-title{
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2.7em;
 }
 .nav{
     display: flex;
@@ -61,7 +61,7 @@ body{
 input{
     border: none;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #000;
     width: 100%;
@@ -73,7 +73,7 @@ input{
 form a{
     color:grey;
     text-decoration: none;
-    font-size: 0.87rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 form a:hover{
@@ -122,10 +122,10 @@ form .row .col-2{
 
 #card-header{
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1.7rem;
 }
 #card-inner{
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     color: gray;
 }
 .three .col-7{
@@ -149,7 +149,7 @@ form .row .col-2{
     overflow: hidden; 
 }
 .three .col-2 input{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin-left: 1vh;
 }
 .btn{

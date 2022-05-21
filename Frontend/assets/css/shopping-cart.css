@@ -4,7 +4,7 @@ body{
     vertical-align: middle;
     display: flex;
     font-family: sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 .title{
@@ -59,7 +59,7 @@ body{
     margin: 0;
 }
 .title b{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 .main{
     margin: 0;
@@ -74,7 +74,7 @@ a{
 }
 .close{
     margin-left: auto;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 img{
     width: 5.5rem;
@@ -116,7 +116,7 @@ input:focus::-webkit-input-placeholder
     border-color: #000;
     color: white;
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 1rem;
     margin-top: 4vh;
     padding: 1vh;
     border-radius: 0;
