@@ -121,9 +121,7 @@
   /* HEADER END  */
   
   
-  
-  
-  
+
   /* FILTERS */
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   *{
@@ -141,18 +139,18 @@
       font-weight: 1000;
   }
   .views{
-      font-size: 0.85rem;
+      font-size: 1.5rem;
   }
   .btn{
       color: #666;
-      font-size: 0.85rem;
+      font-size: 1.5rem;
   }
   .btn:hover{
-      color: #61b15a;
+      color: #21BBD8;
   }
   .green-label{
       background-color: #defadb;
-      color: #48b83e;
+      color: #21BBD8;
       border-radius: 5px;
       font-size: 0.8rem;
       margin: 0 3px;
@@ -204,7 +202,7 @@
       transition: 300ms ease-in-out 0s;
   }
   .options input[type="radio"]:checked ~ .checkmark{
-      background: #61b15a;
+      background: #21BBD8;
       transition: 300ms ease-in-out 0s;
   }
   .options input[type="radio"]:checked ~ .checkmark:after{
@@ -245,7 +243,7 @@
       background-color: #f3f3f3;
   }
   .tick input:checked ~ .check {
-      background-color: #61b15a;
+      background-color: #21BBD8;
   }
   .check:after {
       content: "";
@@ -284,7 +282,7 @@
       float: left;
   }
   .category{
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       width: 20px;
       height: 40px;
       cursor: pointer;
@@ -295,7 +293,7 @@
   }
   .badge-primary{
       background-color: #defadb;
-      color: #48b83e
+      color: #21BBD8;
   }
   .brand .check{
       background-color: #fff;
@@ -312,7 +310,7 @@
       top: 0;
   }
   .rating .tick{
-      font-size: 0.9rem;
+      font-size: 1rem;
       padding-left: 25px;
   }
   .rating .fas.fa-star{
@@ -325,11 +323,13 @@
   }
   .brand .tick input:checked ~ .check,
   .rating .tick input:checked ~ .check{
-      background-color: #61b15a;
+      background-color: #21BBD8;
   }
   #products{
       width: 65%;
-      padding-left: 50px;
+      font-size: 1rem;
+      padding-left: 0px;
+      padding-right: 0px;
       margin: 0;
       float: right;
   }
@@ -342,27 +342,27 @@
       padding: 0.5rem;
   }
   .card-body .description{
-      font-size: 0.78rem;
+      font-size: 0.98rem;
       padding-bottom: 8px;
   }
   div.h6,h6{
       margin: 0;
   }
   .product .fa-star{
-      font-size: 0.9rem;
+      font-size: 1rem;
   }
   .rebate{
-      font-size: 0.9rem   ;
+      font-size: 1rem   ;
   }
   .btn.btn-primary{
-      background-color: #48b83e;
+      background-color: #21BBD8;
       color: #fff;
-      border: 1px solid #008000;    
+      border: 1px solid #21BBD8;    
       border-radius: 10px;
       font-weight: 800;
   }
   .btn.btn-primary:hover{
-      background-color: #48b83ee8;
+      background-color: #21BBD8;
   }
   img{
       width: 200px;
@@ -446,8 +446,6 @@
   }
   
   
-  
-  
   /* PRODUCTS */
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
   
@@ -465,8 +463,8 @@
       --current-price-text-color: hsla(0, 0%, 0%, 0.822);
       --liked-heart-icon-color: hsl(0, 98%, 44%);
       --heart-icon-color: black;
-      --pricing-font-weight: 900;
-      --title-font-weight: 900;
+      --pricing-font-weight: 1000;
+      --title-font-weight: 1000;
    
   
       /* Cards colors */
@@ -506,7 +504,7 @@
       justify-content: center;
       align-content: flex-start;
       margin: auto;
-      min-height: 20em;
+      min-height: 10em;
       min-width: 93%;
       padding: 3em 1em 1em 1em;
       box-sizing: border-box;
@@ -521,16 +519,14 @@
       flex-direction:column;
       justify-items: center;
       align-items: center;
-      /* background-color: var(--card-main-color); */
       margin: 2.9em; 
-      /* card arasi mesafe */
       box-sizing: border-box;
       border-radius: 15px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
       transition: transform 0.2s ease-in-out;
   }
   
-  /* ======== General styling of all cards and heart divs ========== */
+  /* ======== All cards and heart divs ========== */
   .img-div{
       width: 100%;
       height: 8em;
@@ -594,10 +590,8 @@
   .gow-img-div img{
       width: 90%;
       transform: translateY(7.5%);
-      /* background-color: whitesmoke; */
+   
   }
-  
-  
   
   /* Sekiro image and heart-background */
   .sekiro-img-div{
@@ -659,7 +653,6 @@
   }
   
   
-  
   /* U4 image and heart-background*/
   .u4-img-div{
       background-color: var(--card-4-secondary-color);
@@ -669,8 +662,6 @@
       width: 50%;
       transform: translateY(7.5%);
   }
-  
-  
   
   
   .text-container{
@@ -718,7 +709,7 @@
   }
   
   .previous-price{
-      font-size: 0.8rem;
+      font-size: 1rem;
       font-weight: var(--pricing-font-weight);
       color: var(--previous-price-text-color);
       text-decoration: line-through;
@@ -727,7 +718,7 @@
   
   .current-price{
       color: var(--current-price-text-color);
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       font-weight: var(--pricing-font-weight);
       margin: 0;
   }
