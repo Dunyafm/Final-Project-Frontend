@@ -804,8 +804,8 @@ body {
   right: 0;
 }
 
-.card .content .back h3 {
-  font-size: 15px;
+.card .content .back h2 {
+  font-size: 25px;
   letter-spacing: 2px;
 }
 
