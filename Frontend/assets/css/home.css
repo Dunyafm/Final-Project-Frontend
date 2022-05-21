@@ -426,6 +426,7 @@ a:hover {
 }
 
  /* Ən çox satilanlar end  */
+
 /* 
 BRANDS LOGO */
 /*
@@ -566,20 +567,23 @@ padding:10px;
 .slider-item .slider-main-detail{
     padding: 10px;
     border-radius: 0 0 5px 5px;
-    font-weight: 500;
+    font-weight: 800;
     font-family:'Times New Roman', Times, serif ;
+ 
 }
 .slider-item:hover .slider-main-detail{
     background-color: #dbeeee !important;
+
     
 }
+
 .slider-item .price{
     float: left;
     margin-top: 5px;
 }
 .slider-item .price h5{
     line-height: 20px;
-    font-size: larger;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -591,7 +595,7 @@ padding:10px;
 }
 .slider-item .rating{
     float: left;
-    font-size: 17px;
+    font-size: 18px;
     text-align: right;
     line-height: 60px;
     margin-bottom: 10px;
@@ -629,7 +633,6 @@ padding:10px;
 	margin-bottom: 5px;
 	padding-top:5px;
 }
-
 
 
 */
@@ -861,7 +864,7 @@ body {
 	margin: 55px 0 25px;
 }
 .single-box img {
-	max-width: 150px;
+	max-width: 170px;
 	border-radius: 70%;
 	margin: 0 auto
 }
@@ -936,7 +939,6 @@ body {
 
 
 /* TESTIMONIAL End */
-
 
 
 /* SUBSCRIBE START CSS */

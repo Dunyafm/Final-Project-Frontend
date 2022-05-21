@@ -315,7 +315,7 @@ header .mobile-navbar.active {
   -ms-flex-pack: center;
   justify-content: center;
   height: 700px;
-  width: 2200px;
+  width: 99vw;
 }
 .set-bg {
   background-repeat: no-repeat;
@@ -334,6 +334,7 @@ header .mobile-navbar.active {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin: 0px;
 }
 
 .col-lg-12 {
