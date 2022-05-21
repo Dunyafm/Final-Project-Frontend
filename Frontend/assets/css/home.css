@@ -631,7 +631,7 @@ padding:10px;
     margin-top: 5px;
 }
 .slider-item .price h5{
-    line-height: 20px;
+    line-height: 40px;
     font-size: 20px;
     margin: 0;
 }
@@ -941,7 +941,7 @@ body {
 
 .single-box p {
 	margin: 10px 0 25px;
-	line-height: 2.3;
+	line-height: 1.;
   font-size:large;
   font-style: normal;
   font-weight: 700;
