@@ -268,19 +268,12 @@ header .mobile-navbar.active {
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
-html {
-    width: 100%;
-    height: 100vh;
-}
 
 body {
-    background: #e5e5e5;
-    width: 100%;
+    background: whitesmoke;
+   max-width: 100%;
+   max-height: 50%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -291,10 +284,11 @@ body {
     width: 550px;
     max-width: 70%;
     height: 700px;
-    background: url('https://picsum.photos/1000/1500?image=827') #fff;
+    background: url('..//img/login-register/accountbackgrd.webp');
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+
+    background-size: 100%;
     margin: 5% auto 0px;
 }
 
@@ -322,7 +316,7 @@ form {
     display: inline-block;
     width: 110px;
     height: 50px;
-    background: #f03699;
+    background: black;
     margin: 0px 10px 50px;
     border: none;
     color: #fff;
@@ -336,7 +330,7 @@ form {
 }
 
 .panel-switch button:active {
-    background: #b52773;
+    background: rgb(53, 53, 126);
     color: #c9c9c9;
 }
 
@@ -351,7 +345,7 @@ a {
 }
 
 form h1 {
-    color: #fff;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
@@ -429,17 +423,17 @@ fieldset input {
     background: rgba(255, 255, 255, 0.2);
     border: none;
     border-radius: 5em;
-    height: 20px;
+    height: 60px;
     width: 80%;
     margin: 10px 0;
     padding: 5px;
     text-indent: 10px;
-    color: #fff;
+    color: black;
     font-weight: 600;
 }
 
 fieldset input::placeholder {
-    color: #c7c6c6;
+    color: black;
 }
 
 
@@ -453,12 +447,12 @@ fieldset input:focus {
 .login_form {
     position: relative;
     bottom: 0;
-    width: 70%;
+    width: 80%;
     height: 4em;
-    margin-top: 150px;
+    margin-top: 60px;
     border: none;
     border-radius: 10em;
-    background: #f03699;
+    background: gray;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -470,8 +464,9 @@ fieldset input:focus {
 }
 
 #login-form-submit:active {
-    background: #b52773;
-    color: #c9c9c9;
+    background: gray;
+    color: black;
+    font-size:larger ;
 }
 
 p,
@@ -481,7 +476,7 @@ a {
 }
 
 a {
-    color: #898787;
+    color: black;
     font-size: 0.7em;
     text-decoration: none;
 }

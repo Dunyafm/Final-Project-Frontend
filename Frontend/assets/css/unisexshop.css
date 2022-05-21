@@ -129,6 +129,7 @@ body {
       font-family: 'Poppins', sans-serif;
   }
   .wrapper{
+     
       padding: 30px;
       max-width: 1300px;
       margin: auto;
@@ -500,7 +501,6 @@ body {
       justify-content: center;
       align-content: flex-start;
       margin: auto;
-      min-height: 20em;
       min-width: 93%;
       padding: 3em 1em 1em 1em;
       box-sizing: border-box;
