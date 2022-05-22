@@ -893,14 +893,14 @@ body {
 	background-color:whitesmoke;
 }
 .testimonial {
-	padding: 90px 0;
+	padding: 60px 0;
 }
 .sec-heading {
 	margin-bottom: 70px;
 }
 .sec-heading h6 {
 	font-family: allura;
-	font-weight: 900;
+	font-weight: 800;
 	font-size: 82px;
 }
 .single-box {
@@ -987,7 +987,7 @@ body {
 		float: none;
 	}
 	.single-box .content {
-		width: 120%;
+		width: 100%;
 		float: none;
 	}
 }
