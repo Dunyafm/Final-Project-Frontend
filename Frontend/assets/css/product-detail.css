@@ -8,7 +8,6 @@ body {
 
 }
 
-
 header nav {
   padding: 0px !important;
 }
@@ -590,13 +589,13 @@ li {
 .price-button {
   background-color: #121212;
   height: 8vh;
-  width: 90%;
-  margin-left: 30px;
+  width: 70%;
+  margin-left: 20px;
   margin-top: 15px;
   padding: 0.5em;
   color: white;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.5em;
   display: inline-block;
   text-align: center;
   border: none;
@@ -639,11 +638,8 @@ li {
 }
 
 
-/* ....... */
-body{
-  margin-top:20px;
-  background-color:#e9ebee;
-}
+/* Comments */
+
 
 .be-comment-block {
   margin-bottom: 50px !important;
@@ -661,8 +657,8 @@ body{
 }
 
 .be-img-comment {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   float: left;
   margin-bottom: 15px;
 }
@@ -674,7 +670,7 @@ body{
 }
 
 .be-comment-content {
-  margin-left: 80px;
+  margin-left: 90px;
 }
 
 .be-comment-content span {
@@ -703,12 +699,12 @@ body{
 }
 
 .be-comment-time {
-  font-size: 11px;
+  font-size: 15px;
   color: #b4b7c1;
 }
 
 .be-comment-text {
-  font-size: 13px;
+  font-size: 17px;
   line-height: 18px;
   color: #7a8192;
   display: block;
@@ -736,7 +732,7 @@ body{
 }
 
 .form-group .form-input {
-  font-size: 13px;
+  font-size: 17px;
   line-height: 50px;
   font-weight: 400;
   color: #b4b7c1;
