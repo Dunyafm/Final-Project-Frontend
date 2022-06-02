@@ -145,6 +145,10 @@ body {
     right: 0;
     z-index: 9;
   }
+  .navbar .navbar-brand {
+	display: inherit;
+	margin-bottom: 85px;
+}
   /* Icons */
   .header__nav__option {
     text-align: right;
